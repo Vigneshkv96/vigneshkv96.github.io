@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style> 
+h1 { color: blue}
+body { font-family: Arial; } 
+table { 
+width: 100%; 
+border-collapse: collapse; 
+    } 
+table, th, td { 
+border: 1px solid Black; 
+padding: 5px; 
+    } 
+th { 
+text-align: left; 
+background-color: LightBlue; 
+    } 
+tr:nth-child(even) { 
+background-color: GainsBoro; 
+    }
+.header {
+  padding: 2px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+} 
+</style> 
+</head><body>
+<div class="header"><h1>Azure Html Report</h1></div>
+<table>
+</table>
+<h2> Account Details </h2>
+<table>
+<colgroup><col/><col/><col/></colgroup>
+<tr><th>Environment</th><th>Subscription</th><th>SubscriptioId</th></tr>
+<tr><td>&quot;AzureCloud&quot;</td><td>&quot;Free Trial&quot;</td><td>&quot;99581d50-a0f0-495c-a953-3c3ac5af5a5a&quot;</td></tr>
+</table>
+<h2> Resource Group Information </h2>
+<table>
+<colgroup><col/><col/><col/><col/></colgroup>
+<tr><th>ResourceGroupName</th><th>Location</th><th>ProvisioningState</th><th>ResourceId</th></tr>
+<tr><td>cloud-shell-storage-centralindia</td><td>centralindia</td><td>Succeeded</td><td>/subscriptions/99581d50-a0f0-495c-a953-3c3ac5af5a5a/resourceGroups/cloud-shell-storage-centralindia</td></tr>
+<tr><td>Django</td><td>eastus</td><td>Succeeded</td><td>/subscriptions/99581d50-a0f0-495c-a953-3c3ac5af5a5a/resourceGroups/Django</td></tr>
+<tr><td>Django_group</td><td>eastus</td><td>Succeeded</td><td>/subscriptions/99581d50-a0f0-495c-a953-3c3ac5af5a5a/resourceGroups/Django_group</td></tr>
+<tr><td>NetworkWatcherRG</td><td>eastus</td><td>Succeeded</td><td>/subscriptions/99581d50-a0f0-495c-a953-3c3ac5af5a5a/resourceGroups/NetworkWatcherRG</td></tr>
+<tr><td>QuickstartTerraformTest-rg</td><td>eastus</td><td>Succeeded</td><td>/subscriptions/99581d50-a0f0-495c-a953-3c3ac5af5a5a/resourceGroups/QuickstartTerraformTest-rg</td></tr>
+</table>
+<h2> Network Information </h2><table id ="Network"><tr><th>VnetName</th><th>ResourceGroupName</th><th>Location</th><th>ProvisioningState</th><th>AddressSpace</th><th>Subnet</th></tr><tr><td>AzureBastionSubnet</td><td>Django_group</td><td>eastus</td><td>Succeeded</td><td>10.1.0.0/16</td><td><table id="vnet"><tr><th>Subnet Name</th><th>Address Space</th></tr><tr><td>AzureBastionSubnet</td><td>10.1.0.0/16</td></tr><tr><td>Django_group-vnet</td><td>10.0.0.0/24</td></tr></td></table><tr><td>Django_group-vnet</td><td>Django_group</td><td>eastus</td><td>Succeeded</td><td>10.0.0.0/24</td><td><table id="vnet"><tr><th>Subnet Name</th><th>Address Space</th></tr><tr><td>AzureBastionSubnet</td><td>10.1.0.0/16</td></tr><tr><td>Django_group-vnet</td><td>10.0.0.0/24</td></tr></td></table></table>
+<h2> Virtual Machine Details </h2>
+<table>
+<colgroup><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/></colgroup>
+<tr><th>VmName</th><th>ResourceGroupName</th><th>Region</th><th>VmSize</th><th>VirtualNetwork</th><th>Subnet</th><th>PrivateIpAddress</th><th>OsType</th><th>PublicIPAddress</th><th>NicName</th><th>ApplicationSecurityGroup</th></tr>
+<tr><td>Django</td><td>DJANGO_GROUP</td><td>eastus</td><td>Standard_D2s_v3</td><td>Django_group-vnet</td><td>default</td><td>10.0.0.4</td><td>Linux</td><td>Not Assigned</td><td>django962</td><td></td></tr>
+<tr><td>Testing</td><td>DJANGO_GROUP</td><td>eastus</td><td>Standard_D2s_v3</td><td>Django_group-vnet</td><td>default</td><td>10.0.0.5</td><td>Windows</td><td>Not Assigned</td><td>testing759</td><td></td></tr>
+</table>
+</body></html>
