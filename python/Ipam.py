@@ -208,7 +208,7 @@ print (admin_end_ip,"admin_end_ip")
 ####################################################################################################
 
 
-class IKEA():
+class IPAM():
     def IP_register(self,start_ip,end_ip,validator):
         f = open(logFile,"a+")
         f.write ("%s [LOG INFO] : ****************Calling the find_subnet function to get the subnet_id************* \n" % ( datetime.datetime.now()))
@@ -267,19 +267,19 @@ class IKEA():
                       
                     if validator == 'public':
                         if env == 'prod':
-                            name = hostname + '.ikea.com'
+                            name = hostname + '.xxx.com'
                         if env == 'preprod':
-                            name = hostname + '.ikeaa.com'
+                            name = hostname + '.xxxx.com'
                     else:
                         if env == 'prod':
-                            name = hostname + '.ikeaa.com'
+                            name = hostname + '.xxxx.com'
                         if env == 'preprod':
-                            name = hostname + '.ikeadta.com'
+                            name = hostname + '.xxxxx.com'
                     f = open(logFile,"a+")
                     f.write ("%s [LOG INFO] : ********The ip_name formed based on environment is %s \n" % ( datetime.datetime.now(),name))
                     f.close()
 					
-                    query_para_ip = {"site_id": '2',"hostaddr":str(val),"name":str(name),"add_flag": 'new_edit',"ip_class_name":"IKEA/Server_NOC",'ip_class_parameters': str_class_para}
+                    query_para_ip = {"site_id": '2',"hostaddr":str(val),"name":str(name),"add_flag": 'new_edit',"ip_class_name":"IPAM/Server_NOC",'ip_class_parameters': str_class_para}
                     
                     f = open(logFile,"a+")
                     f.write ("%s [LOG INFO] : *********** The IP %s is getting register with IPAM \n" % ( datetime.datetime.now(),val))
@@ -411,7 +411,7 @@ f = open(logFile,"a+")
 f.write ("%s [LOG INFO] :********************** AN instance of class is being created ************** \n" % ( datetime.datetime.now()))
 f.close()
                       
-obj = IKEA()
+obj = IPAM()
 
 print('************************Calling the IP_register Function to Register a Public_FreeIP for '+ "hostname" +"\n")
 f = open(logFile,"a+")
@@ -479,10 +479,10 @@ else:
         print(ip_free)
         if ip_free == 0:         
            if env == 'prod':
-              name = hostname + '.ikea.com'
+              name = hostname + '.xxx.com'
            if env == 'preprod':
-              name = hostname + '.ikeadt.com'
-           query_para_ip = {"site_id": '2',"hostaddr":str(val),"name":str(name),"add_flag": 'new_edit',"ip_class_name":"IKEA/Server_NOC",'ip_class_parameters': str_class_para}
+              name = hostname + '.xxxx.com'
+           query_para_ip = {"site_id": '2',"hostaddr":str(val),"name":str(name),"add_flag": 'new_edit',"ip_class_name":"IPAM/Server_NOC",'ip_class_parameters': str_class_para}
            rt_code,rt_content_ip = call_ipam("rest","POST","ip_add",query_para_ip)
            print(rt_code,"registering PArt")
            break 
