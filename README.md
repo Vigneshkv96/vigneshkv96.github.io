@@ -1,1 +1,1 @@
-[![HitCount](http://hits.dwyl.com/vigneshkv96@gmailcom/vigneshkv96githubio.svg)](http://hits.dwyl.com/vigneshkv96@gmailcom/vigneshkv96githubio)
+[![HitCount](http://hits.dwyl.com/vigneshkv96@gmailcom/img src="https://hitcounterpythonanywherecom/count/tagsvg" alt="Hits".svg)](http://hits.dwyl.com/vigneshkv96@gmailcom/img src="https://hitcounterpythonanywherecom/count/tagsvg" alt="Hits")
