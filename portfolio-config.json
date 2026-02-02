@@ -1,0 +1,207 @@
+{
+  "personal": {
+    "name": "Vignesh K V",
+    "title": "Senior DevOps & Backend Engineer",
+    "location": "Chennai, Tamil Nadu",
+    "phone": "9962623973",
+    "email": "vigneshkv96@gmail.com",
+    "linkedin": "https://linkedin.com/in/vigneshkv",
+    "github": "https://github.com/vigneshkv",
+    "summary": "Innovative DevOps & Software Engineer with 7+ years of experience in Cloud Automation, Application Security, and Backend Development. Proven success in scaling infrastructure for MNCs like Verizon and Comcast, implementing RASP security, building Generative AI data pipelines, and delivering high-performance APIs. Skilled at reducing operational costs and accelerating deployment velocity through CI/CD automation and Infrastructure-as-Code (IaC).",
+    "suggestedImage": {
+      "type": "professional-headshot",
+      "description": "Professional headshot with neutral background, business casual attire"
+    }
+  },
+  "skills": {
+    "languages": [
+      { "name": "Python", "level": "Expert", "icon": "python" },
+      { "name": "Java (Spring)", "level": "Advanced", "icon": "java" },
+      { "name": "JavaScript", "level": "Intermediate", "icon": "javascript" },
+      { "name": "PowerShell", "level": "Intermediate", "icon": "terminal" },
+      { "name": "Bash", "level": "Advanced", "icon": "terminal" },
+      { "name": "SQL", "level": "Advanced", "icon": "database" }
+    ],
+    "devops": [
+      { "name": "OnePipeline", "icon": "workflow" },
+      { "name": "Concourse", "icon": "workflow" },
+      { "name": "Jenkins", "icon": "settings" },
+      { "name": "Terraform", "icon": "layers" },
+      { "name": "Ansible", "icon": "server" },
+      { "name": "Git", "icon": "git-branch" }
+    ],
+    "cloud": [
+      { "name": "AWS EC2", "icon": "cloud" },
+      { "name": "AWS S3", "icon": "database" },
+      { "name": "AWS Lambda", "icon": "zap" },
+      { "name": "Azure Blueprints", "icon": "cloud" },
+      { "name": "Docker", "icon": "box" },
+      { "name": "Kubernetes", "icon": "layers" }
+    ],
+    "dataAndAI": [
+      { "name": "Generative AI Tagging", "icon": "brain" },
+      { "name": "Redis", "icon": "database" },
+      { "name": "ElasticSearch", "icon": "search" },
+      { "name": "AI/ML Data Pre-processing", "icon": "cpu" }
+    ],
+    "securityAndSRE": [
+      { "name": "RASP", "icon": "shield" },
+      { "name": "OSS Security Fixes", "icon": "lock" },
+      { "name": "ELK Stack", "icon": "bar-chart" },
+      { "name": "Nagios", "icon": "activity" },
+      { "name": "Incident Management", "icon": "alert-triangle" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Verizon",
+      "role": "DevOps / Software Engineer",
+      "duration": "June 2021 – Present",
+      "location": "India",
+      "highlights": [
+        "Implemented RASP security and Spring Framework patches, mitigating critical OSS vulnerabilities",
+        "Developed Job Management 2.0 APIs, optimizing technician resource allocation in real time",
+        "Built AI data pipelines for model training, enabling GenAI tagging and performance reporting",
+        "Enhanced production pipelines with Docker, ElasticSearch, and Redis for containerized deployments",
+        "Led CI/CD adoption via OnePipeline Release Manager, accelerating UAT and delivery cycles",
+        "Partnered with SRE teams to onboard systems into observability portals, reducing MTTR"
+      ],
+      "technologies": ["Python", "Java", "Docker", "ElasticSearch", "Redis", "CI/CD", "RASP"],
+      "suggestedImage": {
+        "type": "company-logo",
+        "description": "Verizon logo or abstract tech infrastructure visual"
+      }
+    },
+    {
+      "company": "Comcast",
+      "role": "DevOps Engineer II",
+      "duration": "June 2021 – May 2024",
+      "location": "India",
+      "highlights": [
+        "Migrated Configuration Items (CIs) from data centers to AWS using Terraform & Concourse",
+        "Deployed and maintained Logstash environments, improving centralized logging and monitoring"
+      ],
+      "technologies": ["AWS", "Terraform", "Concourse", "Logstash"],
+      "suggestedImage": {
+        "type": "company-logo",
+        "description": "Comcast logo or cloud migration visual"
+      }
+    },
+    {
+      "company": "Cognizant Technologies",
+      "role": "DevOps Engineer",
+      "duration": "Dec 2020 – Jun 2021",
+      "location": "India",
+      "highlights": [
+        "Managed configuration integrity for 100+ servers, including critical databases and load balancers",
+        "Designed AWS migration roadmaps and technical documentation for enterprise projects"
+      ],
+      "technologies": ["AWS", "Configuration Management", "Documentation"],
+      "suggestedImage": {
+        "type": "company-logo",
+        "description": "Cognizant logo or server infrastructure visual"
+      }
+    },
+    {
+      "company": "Capgemini",
+      "role": "Senior Analyst",
+      "duration": "Aug 2018 – Dec 2020",
+      "location": "India",
+      "highlights": [
+        "Automated SUSE Linux patching with Python & Ansible, reducing manual effort by 80%",
+        "Built Terraform scripts for Azure VM deployment and managed global resource decommissioning",
+        "Implemented AWS cost optimization mechanisms, cutting monthly cloud spend significantly"
+      ],
+      "technologies": ["Python", "Ansible", "Terraform", "Azure", "AWS", "SUSE Linux"],
+      "suggestedImage": {
+        "type": "company-logo",
+        "description": "Capgemini logo or automation workflow visual"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": "Job Management 2.0 APIs",
+      "description": "High-performance REST APIs for real-time technician resource allocation and job management at Verizon",
+      "technologies": ["Java", "Spring", "REST APIs", "Redis"],
+      "impact": "Optimized technician resource allocation in real time for field operations",
+      "suggestedImage": {
+        "type": "project-screenshot",
+        "description": "API architecture diagram or dashboard showing job allocation metrics"
+      }
+    },
+    {
+      "title": "GenAI Data Pipeline",
+      "description": "Built AI data pipelines for model training, enabling Generative AI tagging and performance reporting",
+      "technologies": ["Python", "AI/ML", "Data Pre-processing", "ElasticSearch"],
+      "impact": "Enabled GenAI tagging capabilities and improved model training efficiency",
+      "suggestedImage": {
+        "type": "project-screenshot",
+        "description": "Data pipeline flowchart or AI model training dashboard"
+      }
+    },
+    {
+      "title": "AWS Cloud Migration",
+      "description": "Large-scale migration of Configuration Items from on-premise data centers to AWS cloud infrastructure",
+      "technologies": ["AWS", "Terraform", "Concourse", "Infrastructure as Code"],
+      "impact": "Successfully migrated enterprise workloads to cloud with improved scalability",
+      "suggestedImage": {
+        "type": "project-screenshot",
+        "description": "Cloud architecture diagram showing migration from data center to AWS"
+      }
+    },
+    {
+      "title": "Linux Patching Automation",
+      "description": "Automated SUSE Linux patching system using Python and Ansible for enterprise servers",
+      "technologies": ["Python", "Ansible", "SUSE Linux", "Automation"],
+      "impact": "Reduced manual patching effort by 80%, improving security compliance",
+      "suggestedImage": {
+        "type": "project-screenshot",
+        "description": "Automation workflow diagram or patch management dashboard"
+      }
+    },
+    {
+      "title": "Observability & SRE Portal Integration",
+      "description": "Onboarded multiple systems into centralized observability portals for improved monitoring and incident response",
+      "technologies": ["ELK Stack", "Nagios", "Monitoring", "SRE"],
+      "impact": "Reduced Mean Time To Resolution (MTTR) for production incidents",
+      "suggestedImage": {
+        "type": "project-screenshot",
+        "description": "Monitoring dashboard with metrics and alerts visualization"
+      }
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. Electronics & Communications Engineering",
+      "institution": "Jeppiaar Engineering College",
+      "location": "Chennai, TN",
+      "year": "2018",
+      "suggestedImage": {
+        "type": "institution-logo",
+        "description": "University logo or graduation visual"
+      }
+    }
+  ],
+  "suggestedHeroImages": [
+    {
+      "type": "hero-background",
+      "description": "Abstract tech background with cloud infrastructure, code elements, and DevOps pipeline visuals in dark blue tones"
+    },
+    {
+      "type": "about-section",
+      "description": "Modern workspace with multiple monitors showing code, terminal, and cloud dashboards"
+    },
+    {
+      "type": "skills-section",
+      "description": "Isometric illustration of cloud services, containers, and CI/CD pipelines"
+    }
+  ],
+  "theme": {
+    "primaryColor": "#0066CC",
+    "secondaryColor": "#00A3E0",
+    "accentColor": "#FF6B35",
+    "backgroundColor": "#0F172A",
+    "textColor": "#F8FAFC"
+  }
+}
